@@ -43,7 +43,7 @@
 55C:\Projects\StaticTemplates\Template1\package-lock.json133658759323300925 0
 68C:\Projects\StaticTemplates\Template1\node_modules\@msgpackr-extract133658759100320404 1
 93C:\Projects\StaticTemplates\Template1\node_modules\utility-types\dist\aliases-and-guards.d.ts133658726450785879 0
-42C:\Projects\StaticTemplates\Template1\dist133658762822446264 1
+42C:\Projects\StaticTemplates\Template1\dist133658772546702772 1
 102C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\postprocessing\EffectComposer.js133656205681877729 0
 101C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\nodes\display\AfterImageNode.js133656205678047806 0
 78C:\Projects\StaticTemplates\Template1\node_modules\three\src\loaders\Loader.js133656205685575313 0
@@ -75,7 +75,7 @@
 87C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\features\tls1-3.js133658726435317575 0
 119C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders\ShaderChunk\batching_pars_vertex.glsl.js133656205679341722 0
 79C:\Projects\StaticTemplates\Template1\node_modules\@swc\helpers\esm\_type_of.js133658726426457094 0
-48C:\Projects\StaticTemplates\Template1\index.html133658760050970087 0
+48C:\Projects\StaticTemplates\Template1\index.html133658765787511759 0
 78C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders133656205692228930 1
 50C:\Projects\StaticTemplates\Template1\node_modules133658759100350403 1
 82C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\regions\ER.js133658726427768827 0
@@ -7008,7 +7008,7 @@
 64C:\Projects\StaticTemplates\Template1\node_modules\.bin\svgo.ps1133658726450962256 0
 82C:\Projects\StaticTemplates\Template1\node_modules\.bin\update-browserslist-db.ps1133658726450962256 0
 61C:\Projects\StaticTemplates\Template1\dist\index.42b97bfd.css133658729483060856 0
-53C:\Projects\StaticTemplates\Template1\dist\index.html133658762822436264 0
+53C:\Projects\StaticTemplates\Template1\dist\index.html133658772546702772 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_1.d655e723.jpg133658729474531277 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_2.8138f8bc.jpg133658729475428177 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_3.bb84f636.jpg133658729474240217 0

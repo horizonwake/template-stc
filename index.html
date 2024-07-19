@@ -109,10 +109,11 @@
 
             <script type="module">
               import { Viewer } from '@photo-sphere-viewer/core';
-
+              const basePath = window.location.href.includes('github.io') ? '/template-stc' : '';
+              console.log(basePath);
               const viewer = new Viewer({
                 container: document.querySelector('#viewer'),
-                panorama: '../../assets/images/panorama.jpg',
+                panorama: `${basePath}/assets/images/panorama.jpg`,
                 caption: 'Front Entrance',
                 defaultZoomLvl: 0,
                 navbar: [
