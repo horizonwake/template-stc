@@ -75,7 +75,7 @@
 87C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\features\tls1-3.js133658726435317575 0
 119C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders\ShaderChunk\batching_pars_vertex.glsl.js133656205679341722 0
 79C:\Projects\StaticTemplates\Template1\node_modules\@swc\helpers\esm\_type_of.js133658726426457094 0
-48C:\Projects\StaticTemplates\Template1\index.html133658765787511759 0
+48C:\Projects\StaticTemplates\Template1\index.html133658775018705500 0
 78C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders133656205692228930 1
 50C:\Projects\StaticTemplates\Template1\node_modules133658759100350403 1
 82C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\regions\ER.js133658726427768827 0
@@ -3056,7 +3056,6 @@
 73C:\Projects\StaticTemplates\Template1\node_modules\source-map\lib\util.js133658726413112445 0
 85C:\Projects\StaticTemplates\Template1\node_modules\entities\lib\decode_codepoint.d.ts133658726413921631 0
 80C:\Projects\StaticTemplates\Template1\node_modules\source-map\dist\source-map.js133658726413577457 0
-64C:\Projects\StaticTemplates\Template1\assets\images\Panorama.jpg133603050494631727 0
 85C:\Projects\StaticTemplates\Template1\node_modules\node-addon-api\tools\check-napi.js133658726420803194 0
 84C:\Projects\StaticTemplates\Template1\node_modules\source-map\dist\source-map.min.js133658726413660665 0
 129C:\Projects\StaticTemplates\Template1\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines133658726426692512 1
@@ -4086,7 +4085,7 @@
 86C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\mdn-data\index.js133658726415593144 0
 100C:\Projects\StaticTemplates\Template1\node_modules\css-select\node_modules\domutils\lib\esm\index.js133658726419269840 0
 90C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\mdn-data\package.json133658726416677733 0
-51C:\Projects\StaticTemplates\Template1\assets\images133657843820006159 1
+51C:\Projects\StaticTemplates\Template1\assets\images133658774828968491 1
 87C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\mdn-data\README.md133658726420813197 0
 91C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\mdn-data\l10n\css.json133658726416256732 0
 94C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\features\css-variables.js133658726427118074 0
@@ -7013,6 +7012,7 @@
 60C:\Projects\StaticTemplates\Template1\dist\mf_2.8138f8bc.jpg133658729475428177 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_3.bb84f636.jpg133658729474240217 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_4.5a1877e6.jpg133658729475731031 0
+64C:\Projects\StaticTemplates\Template1\assets\images\panorama.jpg133603050494631727 0
 75C:\Projects\StaticTemplates\Template1\assets\images\carouselImages\mf_2.jpg133642813162876316 0
 75C:\Projects\StaticTemplates\Template1\assets\images\carouselImages\mf_3.jpg133642814729604010 0
 75C:\Projects\StaticTemplates\Template1\assets\images\carouselImages\mf_5.jpg133642818015609841 0
