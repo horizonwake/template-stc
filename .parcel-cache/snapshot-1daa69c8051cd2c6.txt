@@ -26,7 +26,7 @@
 89C:\Projects\StaticTemplates\Template1\node_modules\type-fest\source\iterable-element.d.ts133658726421008754 0
 81C:\Projects\StaticTemplates\Template1\node_modules\cosmiconfig\dist\defaults.d.ts133658726423257614 0
 76C:\Projects\StaticTemplates\Template1\node_modules\dotenv\lib\env-options.js133658726416818106 0
-50C:\Projects\StaticTemplates\Template1\package.json133658729417153795 0
+50C:\Projects\StaticTemplates\Template1\package.json133658742670284246 0
 72C:\Projects\StaticTemplates\Template1\node_modules\@parcel\profiler\test133658726420582754 1
 125C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders\ShaderChunk\map_particle_pars_fragment.glsl.js133656205686463120 0
 123C:\Projects\StaticTemplates\Template1\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\config\parser.js133658726424147193 0
@@ -43,7 +43,7 @@
 55C:\Projects\StaticTemplates\Template1\package-lock.json133658726482893384 0
 68C:\Projects\StaticTemplates\Template1\node_modules\@msgpackr-extract133658726482526276 1
 93C:\Projects\StaticTemplates\Template1\node_modules\utility-types\dist\aliases-and-guards.d.ts133658726450785879 0
-42C:\Projects\StaticTemplates\Template1\dist133658729483080859 1
+42C:\Projects\StaticTemplates\Template1\dist133658742816840388 1
 102C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\postprocessing\EffectComposer.js133656205681877729 0
 101C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\nodes\display\AfterImageNode.js133656205678047806 0
 78C:\Projects\StaticTemplates\Template1\node_modules\three\src\loaders\Loader.js133656205685575313 0
@@ -7008,7 +7008,7 @@
 64C:\Projects\StaticTemplates\Template1\node_modules\.bin\svgo.ps1133658726450962256 0
 82C:\Projects\StaticTemplates\Template1\node_modules\.bin\update-browserslist-db.ps1133658726450962256 0
 61C:\Projects\StaticTemplates\Template1\dist\index.42b97bfd.css133658729483060856 0
-53C:\Projects\StaticTemplates\Template1\dist\index.html133658729483060856 0
+53C:\Projects\StaticTemplates\Template1\dist\index.html133658742816840388 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_1.d655e723.jpg133658729474531277 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_2.8138f8bc.jpg133658729475428177 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_3.bb84f636.jpg133658729474240217 0
