@@ -1,0 +1,181 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+  <!-- import map required for panoramic viewer -->
+  <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+            "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+        }
+    }
+</script>
+  <script src="./index.js" type="module"></script>
+  <title>Modern Landscapes - Transform Your Outdoor Space</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Modern Landscapes</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Transform Your Outdoor Space</h1>
+        <p>Create the landscape of your dreams with Modern Landscapes</p>
+        <a href="#contact" class="cta-button">Get a Free Quote</a>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1592150621744-aca64f48394a" alt="Landscape Design">
+          <h3>Landscape Design</h3>
+          <p>Custom designs tailored to your space and preferences</p>
+        </div>
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1557429287-b2e26467fc2b" alt="Hardscaping">
+          <h3>Hardscaping</h3>
+          <p>Create beautiful patios, walkways, and retaining walls</p>
+        </div>
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1526397751294-331021109fbd" alt="Garden Maintenance">
+          <h3>Garden Maintenance</h3>
+          <p>Keep your landscape looking pristine year-round</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <h2>Our Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1598903859899-3210d0c46458" alt="Modern Garden">
+          <div class="portfolio-overlay">
+            <p>Modern Garden Design</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1614933010789-7d37887c8f2e" alt="Zen Garden">
+          <div class="portfolio-overlay">
+            <p>Zen Garden Oasis</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1598902108854-10e335adac99" alt="Outdoor Living">
+          <div class="portfolio-overlay">
+            <p>Luxury Outdoor Living</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1596702874230-b5706dfb5bc7" alt="Water Feature">
+          <div class="portfolio-overlay">
+            <p>Elegant Water Feature</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel & Panoramic View-->
+    <section id="virtual-tour" class="section">
+      <h2>Virtual Tour</h2>
+      <div id="media-viewers">
+        <!-- Panoramic Viewer -->
+        <div class="carousel-container">
+          <div id="panoramic-viewer">
+            <div id="viewer">
+              <span id="panoramic-left-arrow">
+                < </span>
+                  <span id="panoramic-right-arrow"> > </span>
+            </div>
+
+            <script type="module">
+              import { Viewer } from '@photo-sphere-viewer/core';
+
+              const viewer = new Viewer({
+                container: document.querySelector('#viewer'),
+                panorama: '../../assets/images/panorama.jpg',
+                caption: 'Front Entrance',
+                defaultZoomLvl: 0,
+                navbar: [
+                  'caption',
+                  'zoom',
+                  'move',
+                  'fullscreen',
+                  // {
+                  //     id: 'my-button',
+                  //     content: '<svg...>',
+                  //     title: 'Hello world',
+                  //     className: 'custom-button',
+                  //     onClick: (viewer) => {
+                  //         alert('Hello from custom button');
+                  //     },
+                  // },
+                ],
+              });
+            </script>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel" id="imageCarousel">
+            <img src="./assets/images/carouselImages/main-floor.png" alt="Nature scene 1" class="carousel-image active"
+              data-title="Main Floorplan" data-description="your floorplan.">
+            <img src="./assets/images/carouselImages/mf_1.jpg" alt="Landscape 1" class="carousel-image"
+              data-title="Front Door" data-description="A breathtaking view of your front door.">
+            <img src="./assets/images/carouselImages/mf_2.jpg" alt="Wildlife 1" class="carousel-image"
+              data-title="Front Entrance Hallway"
+              data-description="A red fox peering inquisitively at the camera in a field of wildflowers.">
+            <img src="./assets/images/carouselImages/mf_3.jpg" alt="Ocean 1" class="carousel-image"
+              data-title="Tropical Paradise"
+              data-description="Crystal clear turquoise waters lapping at a pristine white sand beach.">
+            <img src="./assets/images/carouselImages/mf_4.jpg" alt="City 1" class="carousel-image"
+              data-title="Urban Nightscape"
+              data-description="A dazzling cityscape at night with skyscrapers illuminated against the dark sky.">
+
+            <a href="#" class="carousel-arrow left" id="prevButton">&lt;</a>
+            <a href="#" class="carousel-arrow right" id="nextButton">&gt;</a>
+
+            <div class="carousel-dots" id="carouselDots"></div>
+          </div>
+          <div class="image-info">
+            <h2 class="image-title" id="imageTitle">Serene Forest</h2>
+            <p class="image-description" id="imageDescription">A lush green forest with sunlight filtering through the
+              trees.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+
+      <h2>Contact Us</h2>
+      <form>
+        <input id="name" type="text" name="name" placeholder="Your Name" required="">
+        <input id="subject" type="text" name="subject" placeholder="subject" required="">
+        <textarea id="message" name="message" placeholder="Tell us about your project" required=""></textarea>
+        <button type="submit" id="btn-send-email" class="cta-button">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 STC. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
