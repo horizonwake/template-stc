@@ -108,12 +108,13 @@
             </div>
 
             <script type="module">
+              const panoramaImagePath = new URL('./assets/images/panorama.jpg', import.meta.url);
               import { Viewer } from '@photo-sphere-viewer/core';
-              import { panoramaImage } from './assets/images/panorama.jpg';
+              
 
               const viewer = new Viewer({
                 container: document.querySelector('#viewer'),
-                panorama: panoramaImage,
+                panorama: panoramaImagePath.href,
                 caption: 'Front Entrance',
                 defaultZoomLvl: 0,
                 navbar: [
