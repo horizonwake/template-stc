@@ -1,4 +1,4 @@
-7017
+7018
 46C:\Projects\StaticTemplates\Template1\index.js133658386161193167 0
 106C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\nodes\functions\BSDF\BRDF_Lambert.js133656205679827487 0
 77C:\Projects\StaticTemplates\Template1\node_modules\msgpackr-extract\README.md133658726417067090 0
@@ -43,7 +43,7 @@
 55C:\Projects\StaticTemplates\Template1\package-lock.json133658759323300925 0
 68C:\Projects\StaticTemplates\Template1\node_modules\@msgpackr-extract133658759100320404 1
 93C:\Projects\StaticTemplates\Template1\node_modules\utility-types\dist\aliases-and-guards.d.ts133658726450785879 0
-42C:\Projects\StaticTemplates\Template1\dist133658772546702772 1
+42C:\Projects\StaticTemplates\Template1\dist133658785210531476 1
 102C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\postprocessing\EffectComposer.js133656205681877729 0
 101C:\Projects\StaticTemplates\Template1\node_modules\three\examples\jsm\nodes\display\AfterImageNode.js133656205678047806 0
 78C:\Projects\StaticTemplates\Template1\node_modules\three\src\loaders\Loader.js133656205685575313 0
@@ -75,7 +75,7 @@
 87C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\features\tls1-3.js133658726435317575 0
 119C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders\ShaderChunk\batching_pars_vertex.glsl.js133656205679341722 0
 79C:\Projects\StaticTemplates\Template1\node_modules\@swc\helpers\esm\_type_of.js133658726426457094 0
-48C:\Projects\StaticTemplates\Template1\index.html133658775018705500 0
+48C:\Projects\StaticTemplates\Template1\index.html133658784963926256 0
 78C:\Projects\StaticTemplates\Template1\node_modules\three\src\renderers\shaders133656205692228930 1
 50C:\Projects\StaticTemplates\Template1\node_modules133658759100350403 1
 82C:\Projects\StaticTemplates\Template1\node_modules\caniuse-lite\data\regions\ER.js133658726427768827 0
@@ -4395,6 +4395,7 @@
 105C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\css-tree\cjs\generator\sourceMap.cjs133658726422648837 0
 115C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\SyntaxError.cjs133658726423049564 0
 101C:\Projects\StaticTemplates\Template1\node_modules\csso\node_modules\css-tree\cjs\convertor\index.cjs133658726415853370 0
+64C:\Projects\StaticTemplates\Template1\dist\panorama.a86a9792.jpg133658785210531476 0
 71C:\Projects\StaticTemplates\Template1\node_modules\.bin\detect-libc.cmd133658726450952254 0
 67C:\Projects\StaticTemplates\Template1\node_modules\csso\lib\replace133658726421256350 1
 120C:\Projects\StaticTemplates\Template1\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\definitions.json133658726415823369 0
@@ -6038,7 +6039,7 @@
 84C:\Projects\StaticTemplates\Template1\node_modules\@parcel\watcher-win32-x64\LICENSE133658726416111635 0
 126C:\Projects\StaticTemplates\Template1\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\AnPlusB.js133658726412813563 0
 89C:\Projects\StaticTemplates\Template1\node_modules\@parcel\watcher-win32-x64\package.json133658726416161640 0
-66C:\Projects\StaticTemplates\Template1\assets\images\carouselImages133657845165157036 1
+66C:\Projects\StaticTemplates\Template1\assets\images\carouselImages133658782667690697 1
 86C:\Projects\StaticTemplates\Template1\node_modules\@parcel\watcher-win32-x64\README.md133658726416246716 0
 108C:\Projects\StaticTemplates\Template1\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\index.js133658726421656836 0
 77C:\Projects\StaticTemplates\Template1\node_modules\@parcel\watcher\index.d.ts133658726420109092 0
@@ -7007,7 +7008,7 @@
 64C:\Projects\StaticTemplates\Template1\node_modules\.bin\svgo.ps1133658726450962256 0
 82C:\Projects\StaticTemplates\Template1\node_modules\.bin\update-browserslist-db.ps1133658726450962256 0
 61C:\Projects\StaticTemplates\Template1\dist\index.42b97bfd.css133658729483060856 0
-53C:\Projects\StaticTemplates\Template1\dist\index.html133658772546702772 0
+53C:\Projects\StaticTemplates\Template1\dist\index.html133658785210521544 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_1.d655e723.jpg133658729474531277 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_2.8138f8bc.jpg133658729475428177 0
 60C:\Projects\StaticTemplates\Template1\dist\mf_3.bb84f636.jpg133658729474240217 0
