@@ -9,13 +9,19 @@
     max-height: 800px;
   }
 
-  #media-viewers {
-    display: flex; /* Enable Flexbox */
-    justify-content:space-evenly; /* Space out the child elements */
-    gap: 20px; /* Optional: Adjust the gap between the child elements */
-    margin: 20px;
-    position: relative;
+  #media-viewers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minmax() as needed */
+  gap: 20px;
+  padding: 1rem;
   }
+
+  .media-grid-item {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 10px;
+}
 
   .carousel {
     position: relative;

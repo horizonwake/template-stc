@@ -30,6 +30,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#virtual-tour">Virtual Tour</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -97,47 +98,19 @@
     <!-- Carousel & Panoramic View-->
     <section id="virtual-tour" class="section">
       <h2>Virtual Tour</h2>
-      <div id="media-viewers">
+      <div id="media-viewers-grid">
         <!-- Panoramic Viewer -->
-        <div class="carousel-container">
+        <div class="media-grid-item">
           <div id="panoramic-viewer">
             <div id="viewer">
               <span id="panoramic-left-arrow">
                 < </span>
                   <span id="panoramic-right-arrow"> > </span>
             </div>
-
-            <script type="module">
-              const panoramaImagePath = new URL('./assets/images/Panorama.jpg', import.meta.url);
-              import { Viewer } from '@photo-sphere-viewer/core';
-              
-
-              const viewer = new Viewer({
-                container: document.querySelector('#viewer'),
-                panorama: panoramaImagePath.href,
-                caption: 'Front Entrance',
-                defaultZoomLvl: 0,
-                navbar: [
-                  'caption',
-                  'zoom',
-                  'move',
-                  'fullscreen',
-                  // {
-                  //     id: 'my-button',
-                  //     content: '<svg...>',
-                  //     title: 'Hello world',
-                  //     className: 'custom-button',
-                  //     onClick: (viewer) => {
-                  //         alert('Hello from custom button');
-                  //     },
-                  // },
-                ],
-              });
-            </script>
           </div>
         </div>
 
-        <div class="carousel-container">
+        <div class="media-grid-item">
           <div class="carousel" id="imageCarousel">
             <img src="./assets/images/carouselImages/main-floor.png" alt="Nature scene 1" class="carousel-image active"
               data-title="Main Floorplan" data-description="your floorplan.">
