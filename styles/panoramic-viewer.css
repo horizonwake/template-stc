@@ -37,6 +37,61 @@
     line-height: 0;
 }
 
+ #panoramicDots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 0.45);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    z-index: 100;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .dot.active {
+    background-color: white;
+  }
+
+  .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 100;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width value to align it */
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dot:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
 @keyframes panoramic-left-arrow-animation {
     0% {
         transform: translateX(0);
