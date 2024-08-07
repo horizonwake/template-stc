@@ -10,12 +10,14 @@ export const panoramicViewer = () => {
     const masterBedroom = new URL('../assets/images/Mikes Cottage/07 MASTER BEDROOM.jpg', import.meta.url);
     const ensuite = new URL('../assets/images/Mikes Cottage/08 ENSUITE.jpg', import.meta.url);
 
+    const foyer_FP = new URL('../assets/images/Mikes Cottage/01 FOYER.pdf', import.meta.url);
+
     const dotsContainer = document.getElementById('panoramicDots');
 
     let count = 0;
 
     const images = [
-        { image: foyer.href, room: 'Foyer', imageFP: '../assets/images/Mikes Cottage/01 FOYER.pdf'},
+        { image: foyer.href, room: 'Foyer', imageFP: foyer_FP.href},
         { image: diningRoom.href, room: 'Dining Room', imageFP: '../assets/images/Mikes Cottage/02 DINING ROOM.pdf' },
         { image: greatRoom.href, room: 'Great Room', imageFP: '../assets/images/Mikes Cottage/03 GREAT ROOM.pdf' },
         { image: kitchen.href, room: 'Kitchen', imageFP: '../assets/images/Mikes Cottage/04 KITCHEN.pdf' },
