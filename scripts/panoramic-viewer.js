@@ -18,13 +18,13 @@ export const panoramicViewer = () => {
 
     const images = [
         { image: foyer.href, room: 'Foyer', imageFP: foyer_FP.href},
-        { image: diningRoom.href, room: 'Dining Room', imageFP: '../assets/images/Mikes Cottage/02 DINING ROOM.pdf' },
-        { image: greatRoom.href, room: 'Great Room', imageFP: '../assets/images/Mikes Cottage/03 GREAT ROOM.pdf' },
-        { image: kitchen.href, room: 'Kitchen', imageFP: '../assets/images/Mikes Cottage/04 KITCHEN.pdf' },
-        { image: kitchen2.href, room: 'Kitchen 02', imageFP: '../assets/images/Mikes Cottage/05 KITCHEN 02.pdf' },
-        { image: hallway.href, room: 'Hallway', imageFP: '../assets/images/Mikes Cottage/06 HALLWAY.pdf' },
-        { image: masterBedroom.href, room: 'Master Bedroom', imageFP: '../assets/images/Mikes Cottage/07 MASTER BEDROOM.pdf' },
-        { image: ensuite.href, room: 'Ensuite', imageFP: '../assets/images/Mikes Cottage/08 ENSUITE.pdf' }
+        { image: diningRoom.href, room: 'Dining Room', imageFP: '../assets/images/Mikes Cottage/02 DINING ROOM.png' },
+        { image: greatRoom.href, room: 'Great Room', imageFP: '../assets/images/Mikes Cottage/03 GREAT ROOM.png' },
+        { image: kitchen.href, room: 'Kitchen', imageFP: '../assets/images/Mikes Cottage/04 KITCHEN.png' },
+        { image: kitchen2.href, room: 'Kitchen 02', imageFP: '../assets/images/Mikes Cottage/05 KITCHEN 02.png' },
+        { image: hallway.href, room: 'Hallway', imageFP: '../assets/images/Mikes Cottage/06 HALLWAY.png' },
+        { image: masterBedroom.href, room: 'Master Bedroom', imageFP: '../assets/images/Mikes Cottage/07 MASTER BEDROOM.png' },
+        { image: ensuite.href, room: 'Ensuite', imageFP: '../assets/images/Mikes Cottage/08 ENSUITE.png' }
     ];
 
     // Create dots with custom tooltip

@@ -19,10 +19,10 @@
     position: absolute;
     top: 0;
     right: 0;
-    opacity: 1; /* Adjust the opacity as needed */
+    opacity: 0.6; /* Adjust the opacity as needed */
     z-index: 10;
     margin: 5px;
-    width: 30%;
+    width: 20%;
 }
 
 #panoramic-right-arrow {
