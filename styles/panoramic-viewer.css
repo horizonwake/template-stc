@@ -11,30 +11,50 @@
     }
 }
 
-#panoramic-right-arrow {
+.panoramic-viewer {
+    position: relative; /* This makes it a reference for the absolutely positioned image */
+}
+
+.fp-map {
     position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1; /* Adjust the opacity as needed */
+    z-index: 10;
+    margin: 5px;
+    width: 30%;
+}
+
+#panoramic-right-arrow {
     right: 0px;
-    transform: translateY(-50%);
-    top: 45%;
-    cursor: pointer;
-    font-size: 400%;
-    color:gray;
     margin-right: 10px;
-    z-index: 1;
-    line-height: 0;
 }
 
 #panoramic-left-arrow {
-    position: absolute;
     left: 0px;
+    margin-left: 10px;
+}
+
+#panoramic-left-arrow, #panoramic-right-arrow {
+    position: absolute;
     transform: translateY(-50%);
     top: 45%;
     cursor: pointer;
-    font-size: 400%;
-    color: gray;
-    margin-left: 10px;
+    font-size: 300%;
     z-index: 1;
     line-height: 0;
+    font-weight: lighter;
+    background-color: rgba(54, 54, 54, 0.45);
+
+    color: white;
+    transition: background-color 0.3s;
+    border-radius: 500px;
+    padding: 25px 10px;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.658);
+        color: rgb(232, 232, 232);
+    }
 }
 
  #panoramicDots {
@@ -114,12 +134,4 @@
     100% {
         transform: translateX(0);
     }
-}
-
-#panoramic-left-arrow {
-    animation: panoramic-left-arrow-animation 2s infinite;
-}
-
-#panoramic-right-arrow {
-    animation: panoramic-right-arrow-animation 2s infinite;
 }
