@@ -10,7 +10,7 @@ export const panoramicViewer = () => {
     const masterBedroom = new URL('../assets/images/Mikes Cottage/07 MASTER BEDROOM.jpg', import.meta.url);
     const ensuite = new URL('../assets/images/Mikes Cottage/08 ENSUITE.jpg', import.meta.url);
 
-    const foyer_FP = new URL('../assets/images/Mikes Cottage/01 FOYER.pdf', import.meta.url);
+    const foyer_FP = new URL('../assets/images/Mikes Cottage/01 FOYER.png', import.meta.url);
 
     const dotsContainer = document.getElementById('panoramicDots');
 
