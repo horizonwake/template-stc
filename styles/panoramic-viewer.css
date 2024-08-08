@@ -11,6 +11,17 @@
     }
 }
 
+.enlarged {
+  width: 70% !important;
+  top: 50% !important;
+  opacity: 0.9 !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: position 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  
+}
+
 .panoramic-viewer {
     position: relative; /* This makes it a reference for the absolutely positioned image */
 }

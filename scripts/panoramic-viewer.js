@@ -81,6 +81,11 @@ export const panoramicViewer = () => {
     FPMap.classList.add('fp-map');
     viewerContainer.appendChild(FPMap);
 
+    // Event listener to toggle enlargement and centering
+    FPMap.addEventListener('click', () => {
+        FPMap.classList.toggle('enlarged');
+    });
+
     // Create and append the left arrow
     const leftArrow = document.createElement('span');
     leftArrow.id = 'panoramic-left-arrow';
