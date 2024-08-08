@@ -11,6 +11,13 @@ export const panoramicViewer = () => {
     const ensuite = new URL('../assets/images/Mikes Cottage/08 ENSUITE.jpg', import.meta.url);
 
     const foyer_FP = new URL('../assets/images/Mikes Cottage/01 FOYER.png', import.meta.url);
+    const diningRoom_FP = new URL('../assets/images/Mikes Cottage/02 DINING ROOM.png', import.meta.url);
+    const greatRoom_FP = new URL('../assets/images/Mikes Cottage/03 GREAT ROOM.png', import.meta.url);
+    const kitchen_FP = new URL('../assets/images/Mikes Cottage/04 KITCHEN.png', import.meta.url);
+    const kitchen2_FP = new URL('../assets/images/Mikes Cottage/05 KITCHEN 02.png', import.meta.url);
+    const hallway_FP = new URL('../assets/images/Mikes Cottage/06 HALLWAY.png', import.meta.url);
+    const masterBedroom_FP = new URL('../assets/images/Mikes Cottage/07 MASTER BEDROOM.png', import.meta.url);
+    const ensuite_FP = new URL('../assets/images/Mikes Cottage/08 ENSUITE.png', import.meta.url);
 
     const dotsContainer = document.getElementById('panoramicDots');
 
@@ -18,13 +25,13 @@ export const panoramicViewer = () => {
 
     const images = [
         { image: foyer.href, room: 'Foyer', imageFP: foyer_FP.href},
-        { image: diningRoom.href, room: 'Dining Room', imageFP: '../assets/images/Mikes Cottage/02 DINING ROOM.png' },
-        { image: greatRoom.href, room: 'Great Room', imageFP: '../assets/images/Mikes Cottage/03 GREAT ROOM.png' },
-        { image: kitchen.href, room: 'Kitchen', imageFP: '../assets/images/Mikes Cottage/04 KITCHEN.png' },
-        { image: kitchen2.href, room: 'Kitchen 02', imageFP: '../assets/images/Mikes Cottage/05 KITCHEN 02.png' },
-        { image: hallway.href, room: 'Hallway', imageFP: '../assets/images/Mikes Cottage/06 HALLWAY.png' },
-        { image: masterBedroom.href, room: 'Master Bedroom', imageFP: '../assets/images/Mikes Cottage/07 MASTER BEDROOM.png' },
-        { image: ensuite.href, room: 'Ensuite', imageFP: '../assets/images/Mikes Cottage/08 ENSUITE.png' }
+        { image: diningRoom.href, room: 'Dining Room', imageFP: diningRoom_FP.href },
+        { image: greatRoom.href, room: 'Great Room', imageFP: greatRoom_FP.href },
+        { image: kitchen.href, room: 'Kitchen', imageFP: kitchen_FP.href },
+        { image: kitchen2.href, room: 'Kitchen 02', imageFP: kitchen2_FP.href },
+        { image: hallway.href, room: 'Hallway', imageFP: hallway_FP.href },
+        { image: masterBedroom.href, room: 'Master Bedroom', imageFP: masterBedroom_FP.href },
+        { image: ensuite.href, room: 'Ensuite', imageFP: ensuite_FP.href },
     ];
 
     // Create dots with custom tooltip
